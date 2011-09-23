@@ -31,5 +31,6 @@ locale_additions:
       kong:
         edit_attributes: 
           attributes: Attributes
+          param1: Parameter 1
         edit_deployment: 
           deployment: Deployment
