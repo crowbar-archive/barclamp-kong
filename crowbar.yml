@@ -31,6 +31,7 @@ locale_additions:
       kong:
         edit_attributes: 
           attributes: Attributes
+          param1: Parameter 1
         edit_deployment: 
           deployment: Deployment
 
@@ -38,5 +39,6 @@ debs:
   repos:
     - deb http://ops.rcb.me/packages maverick diablo-d5
   pkgs:
+    - python-eventlet
     - python-pip
     - python-virtualenv
