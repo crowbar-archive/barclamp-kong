@@ -33,3 +33,10 @@ locale_additions:
           attributes: Attributes
         edit_deployment: 
           deployment: Deployment
+
+debs:
+  repos:
+    - deb http://ops.rcb.me/packages maverick diablo-d5
+  pkgs:
+    - python-pip
+    - python-virtualenv
