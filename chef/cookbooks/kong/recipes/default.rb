@@ -6,6 +6,9 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+
+package "python-virtualenv"
+
 cookbook_file "/opt/kong.tar.gz" do
   source "kong.tar.gz"
   mode "0644"

@@ -34,3 +34,10 @@ locale_additions:
           param1: Parameter 1
         edit_deployment: 
           deployment: Deployment
+
+debs:
+  pkgs:
+    - python-eventlet
+    - python-pip
+    - python-virtualenv
+
