@@ -20,6 +20,8 @@ barclamp:
   display: Kong
   description: Kong Validation Tool
   version: 0
+  member:
+    - openstack
 
 crowbar:
   layout: 1
