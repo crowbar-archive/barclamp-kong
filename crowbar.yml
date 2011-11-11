@@ -46,3 +46,4 @@ debs:
     - python-pip
     - python-virtualenv
     - pep8
+    - python-unittest2
