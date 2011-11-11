@@ -45,3 +45,4 @@ debs:
     - python-eventlet
     - python-pip
     - python-virtualenv
+    - pep8
