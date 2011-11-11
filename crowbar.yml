@@ -41,6 +41,7 @@ debs:
   repos:
 #    - deb http://ops.rcb.me/packages maverick diablo-d5
     - deb http://ops.monkeypuppetlabs.com/packages maverick diablo-d5
+    - deb http://ppa.launchpad.net/chris-lea/python-pika/ubuntu maverick main
   pkgs:
     - python-eventlet
     - python-pip
@@ -53,3 +54,4 @@ debs:
     - python-amqplib
     - python-nose
     - python-httplib2
+    - python-pika
