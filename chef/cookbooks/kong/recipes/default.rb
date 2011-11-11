@@ -13,6 +13,7 @@ package "python-anyjson"
 package "python-httplib2"
 package "python-nose"
 package "python-amqplib"
+package "python-pika"
 package "pep8"
 package "pylint"
 
