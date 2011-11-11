@@ -46,4 +46,10 @@ debs:
     - python-pip
     - python-virtualenv
     - pep8
+    - pylint
     - python-unittest2
+    - python-argparse
+    - python-anyjson
+    - python-amqplib
+    - python-nose
+    - python-httplib2
