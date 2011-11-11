@@ -8,6 +8,13 @@
 #
 
 package "python-virtualenv"
+package "python-argparse"
+package "python-anyjson"
+package "python-httplib2"
+package "python-nose"
+package "python-amqplib"
+package "pep8"
+package "pylint"
 
 cookbook_file "/opt/kong.tar.gz" do
   source "kong.tar.gz"
