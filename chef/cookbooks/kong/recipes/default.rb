@@ -14,6 +14,7 @@ package "python-httplib2"
 package "python-nose"
 package "python-amqplib"
 package "python-pika"
+package "python-unittest2"
 package "pep8"
 package "pylint"
 
