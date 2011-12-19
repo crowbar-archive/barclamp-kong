@@ -40,9 +40,14 @@ locale_additions:
           deployment: Deployment
 
 debs:
-  repos:
-    - deb http://ops.rcb.me/packages maverick diablo-final
-    - deb http://ppa.launchpad.net/chris-lea/python-pika/ubuntu maverick main
+  ubuntu-10.10:
+    repos: 
+      - deb http://ops.rcb.me/packages maverick diablo-final
+      - deb http://ppa.launchpad.net/chris-lea/python-pika/ubuntu maverick main
+  ubuntu-11.04:
+    repos:
+      - deb http://ops.rcb.me/packages natty diablo-final
+      - deb http://ppa.launchpad.net/chris-lea/python-pika/ubuntu natty main
   pkgs:
     - python-eventlet
     - python-pip
