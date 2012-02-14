@@ -9,6 +9,9 @@
   "deployment": {
     "kong": {
       "crowbar-revision": 0,
+      "element_states": {
+        "kong": [ "readying", "ready", "applying" ]
+      },
       "elements": {},
       "element_order": [
         [ "kong" ]
