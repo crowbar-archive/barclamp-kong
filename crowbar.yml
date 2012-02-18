@@ -52,6 +52,9 @@ debs:
     repos:
       - deb http://ops.rcb.me/packages oneiric diablo-final
       - deb http://ppa.launchpad.net/chris-lea/python-pika/ubuntu oneiric main
+  ubuntu-12.04:
+    repos:
+      - deb http://ppa.launchpad.net/chris-lea/python-pika/ubuntu precise main
   pkgs:
     - python-eventlet
     - python-pip
